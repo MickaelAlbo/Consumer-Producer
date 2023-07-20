@@ -20,6 +20,11 @@ This project is an assignment aimed at gaining experience with concurrent progra
 
 7. Configuration File (e.g., `config.txt`): The configuration file containing details about producers, their products, and queue sizes for the producer and co-editor queues.
 
+## System Design
+
+<img width="350" alt="image" src="https://github.com/MickaelAlbo/Consumer-Producer/assets/71727260/0dca94c5-ab21-48fc-8914-98f7be21bee3">
+
+
 ## How to Build and Run
 
 1. Ensure that you have a compatible C/C++ compiler installed on your system.
@@ -42,22 +47,38 @@ Note: Replace `config.txt` with the actual name of your configuration file.
 The configuration file has the following format:
 
 ```
-
-PRODUCER 1
+[NUMBER OF THE PRODUCER 1]
 [number of products]
-queue size = [size]
+[QUEUE SIZE]
 
-PRODUCER 2
+[NUMBER OF THE PRODUCER 2]
 [number of products]
-queue size = [size]
+[QUEUE SIZE]
 
 ...
 ...
 ...
 
-PRODUCER n
+[NUMBER OF THE PRODUCER n]
 [number of products]
-queue size = [size]
+[QUEUE SIZE]
 
-Co-Editor queue size = [size]
+[SIZE OF THE CO-EDITOR]
+```
+
+## Exmaple of Configuration File Format
+```
+1
+30
+5
+
+2
+25
+3
+
+3
+16
+30
+
+17
 ```
