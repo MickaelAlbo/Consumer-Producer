@@ -37,7 +37,7 @@ This project is an assignment aimed at gaining experience with concurrent progra
 
 3. Compile the project using the make command:
 
-`make`
+`make`  
 `./consumer-producer.out config.txt`
 
 
