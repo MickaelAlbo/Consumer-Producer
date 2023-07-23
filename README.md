@@ -31,13 +31,14 @@ This project is an assignment aimed at gaining experience with concurrent progra
 
 2. Clone this repository to your local machine:
 
-`git clone https://github.com/your_username/concurrent-news-broadcasting.git`  
-`cd concurrent-news-broadcasting`
+`git clone https://github.com/MickaelAlbo/Consumer-Producer`  
+`cd Consumer-Producer`
 
 
 3. Compile the project using the make command:
 
-`./ex3.out config.txt`
+`make`
+`./consumer-producer.out config.txt`
 
 
 Note: Replace `config.txt` with the actual name of your configuration file.
