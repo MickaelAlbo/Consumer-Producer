@@ -22,8 +22,7 @@ This project is an assignment aimed at gaining experience with concurrent progra
 
 ## System Design
 
-<img width="500" alt="image" src="https://github.com/MickaelAlbo/Consumer-Producer/assets/71727260/0dca94c5-ab21-48fc-8914-98f7be21bee3">
-
+<img width="600" alt="image" src="https://github.com/MickaelAlbo/Consumer-Producer/assets/71727260/0dca94c5-ab21-48fc-8914-98f7be21bee3">
 
 ## How to Build and Run
 
